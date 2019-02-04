@@ -18,7 +18,7 @@ void CountingSort(int *A, int n){
         counter[(*p)]++; 
     }
 
-    // retreve sorted list
+    // retrieve sorted list
     int i = 0;
     int *pA = A;
     while (i < max){
